@@ -73,7 +73,7 @@ const Footer = () => {
                         </h4>
                         <div className="space-y-3">
                             <a
-                                href="https://github.com/yourusername/portfolio-tracker"
+                                href="https://github.com/Rashid-123/Wealth-Manager"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="flex items-center space-x-2 text-sm text-slate-600 hover:text-blue-600 transition-colors"

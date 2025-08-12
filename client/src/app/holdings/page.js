@@ -13,7 +13,7 @@ const HoldingsTable = () => {
     const [sectorFilter, setSectorFilter] = useState('All');
     const [currentPage, setCurrentPage] = useState(1);
     const [itemsPerPage, setItemsPerPage] = useState(10);
-
+    console.log(process.env.NEXT_PUBLIC_API_URL);
     // Fetch data from API
     useEffect(() => {
         const fetchHoldings = async () => {
